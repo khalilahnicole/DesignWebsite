@@ -1,0 +1,19 @@
+$appLavender: #e2d2f9;
+
+.header-wrapper {
+    background-color: $appLavender;
+    height: 40vh;
+    width: 100%;
+}
+
+.personal-pic {
+    margin-left: 2em;
+    img {
+        border-radius: 50%;
+        width: 20em;
+        height: 20em;
+        border: 2px solid white;
+        transform: translateY(-50%);
+
+    }
+}
